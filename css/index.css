@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Gotham';
+    margin: 0;
+    min-height: 100vh;
+}
+
+.hero__logo{
+    left: 20%;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: 'Gotham';
+    text-align: left;
+    padding-right: 26%;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-family: 'Gotham';
+    margin-top: -150px;
+}
+
+h3{
+    font-size: 2em;
+    font-family: 'Gotham';
+}
+
+p{
+    font-size: 3.5em;
+    font-family: 'Gotham';
+    text-align: center;
+    padding-right: 25%;
+    color: white;
+    stroke-width: 5%;
+    position: relative;
+    bottom: 20px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke: 3px;
+}
+
+.color-acento{
+    color: white;
+    font-size: 2em;
+}
+
+.posicionamiento-que{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{ font-size: 1.25em;}
+
+button{
+    font-size: 3em;
+    font-weight: bold;
+    padding: 30px 50px;
+    border-radius: 15px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: black;
+    position: relative;
+    right: 225px;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+.mi-seccion{
+   position: relative;
+   right: -12%;
+}
+
+header{
+    background-color: #FF5A8D;
+}
+
+header .logo{
+    margin: 0;
+    padding: 16px 0px;
+}    
+
+header .container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 33px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    color: lightpink;    
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    color: white;
+    background-image : url('../img/Fondo Primero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#startsaveur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+    background-image: url('../img/Fondo Primero 2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#caracter{
+    background-image: url('../img/Fondo Primero 2.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+#caracter .container{
+   margin-top: 0%;
+   padding: 100px 0px;
+}
+
+#caracter h2{
+    margin-top: 0;
+    color: white;
+    font-size: 3em;
+}
+
+#caracter h3{
+    color: palevioletred;   
+    stroke-width: 2%;
+}
+
+#caracter p{
+    display: none;
+}
+
+#caracter .character{
+    background-repeat: no-repeat;
+   background-position: center center;
+   padding: 50px;
+   margin: 12px;
+   border-radius: 15px;
+}
+
+.character:first-child{
+   background-image: url('../img/tarjeta_credito.jpg');
+   
+}
+
+.character:nth-child(2){
+    background-image: url('../img/Helado-de-manjar-Página-500x375.jpg');
+
+}
+
+.character:nth-child(3){
+    background-image: url('../img/unnamed.png');
+}
+
+#opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../img/Fondo Segundo.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#opciones h2{
+    color: white;
+    font-size: 3.5em;
+}
+
+#opciones p{
+    margin-left: 25%;
+    display: flex;
+}
+
+#contacto h2{
+   font-size: 3.5em;
+   color: white;
+}
+
+#contacto p{
+    font-size: 2.9em;
+    margin-left: 175px;
+    text-align: center;
+}
+
+.contacto__input{
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+}
+
+.contacto__input--message{
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.contacto__title{
+    text-align: center;
+    font-size: 1.9rem;
+
+}
+
+.contacto__cta{
+    font-family: inherit;
+    background-color: pink;
+    color: white;
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    grid-auto-columns: 100%;
+}
+
+#contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+    background-image: url('../img/Fondo 1.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.contacto_container{
+    background-color: white;
+    background-size: 3.5rem;
+    width: 100%;
+    display: grid;
+    gap: 2em;
+    grid-auto-columns: 100%;
+}
+
+.contacto__title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .4em;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    header{
+        width: 100%;
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #startsaveur .container{
+        
+    }
+
+    #startsaveur .img-container{
+
+    }
+}
+
+
+footer{
+    background-color: violet;
+    justify-content: flex-end;
+    padding: 1em 0;
+    text-align: center;
+}
+
+#footer .character{
+    font-size: 40%;
+}
+
+#footer__container{
+    text-align: center;
+}
+
+.mi-seccion2{
+   text-align: center;
+   justify-content: flex-end;
+   margin-left: 15%;
+}
